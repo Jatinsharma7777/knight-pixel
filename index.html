@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursed SMP | Knight Pixel</title>
+    <meta name="description" content="Experience the ultimate Minecraft SMP with the Cursed Crown. Power beyond imagination, curses beyond control. Join CURSED SMP today.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader-content">
+            <h2 class="loader-subtext">KNIGHT PIXEL</h2>
+            <h1 class="loader-maintext">presents</h1>
+            <h1 class="loader-branding">(CURSED SMP)</h1>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">CURSED <span>SMP</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="store.html" target="_blank">STORE</a></li>
+                <li><a href="rules.html" target="_blank">RULES</a></li>
+                <li><a href="gallery.html" target="_blank">GALLERY</a></li>
+                <li><a href="team.html" target="_blank">TEAM</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="https://discord.gg/vMerUzQE" class="discord-btn" target="_blank">
+                <i class="fab fa-discord"></i> JOIN DISCORD
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="welcome-text">WELCOME TO</p>
+                <h1 class="hero-title">CURSED <span>SMP</span></h1>
+                <p class="hero-tagline">POWER BEYOND IMAGINATION, CURSES BEYOND CONTROL.</p>
+                <p class="hero-description">
+                    A Minecraft SMP where the Cursed Crown chooses a king.<br>
+                    Rule the realm with unstoppable powers, but beware... every power comes with a price.
+                </p>
+                <div class="hero-actions">
+                    <button id="copy-ip" class="primary-btn">COPY IP <i class="fas fa-copy"></i></button>
+                    <a href="https://youtu.be/J6enKbYFP18?si=Xb9nJJIovERnb-qH" target="_blank" class="secondary-btn">HOW TO JOIN</a>
+                </div>
+                <div class="ip-display" id="ip-card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAASFBMVEVHcEyslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJlslJmP8z3sAAAAF3RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFruuI7AAAAEaSURBVEjH7ZXRkoMgDAUzNCS0Vv//v0toR+3OfZgZz7yQZAmYALBvE34/uA6K6Z+Bst4H4N4N+K64T7E9A9h99793AsC9G/BdAbX/O4Ddd/97JwDcuwHfFVB7/Y9f8W8D1F7/41f82wC116S+5t8G0Otr3j8C8M8G8K/Wl7/vD5mP7w+Zj+8PmY/vD5mP7w+Zj+8PmY/vD5mP7w+Zj+8PmY/vD5mP78/Yj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP78fUj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP78fUj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP7w+Zj+8P2Y/vD9mP78eUj+8P2f94N86/5t4H1PwCO7/vD5v37v0r/D6pIDqXv6f++AAAAAElFTkSuQmCC" alt="Minecraft" class="mc-icon themed-glow">
+                    <div class="ip-info">
+                        <span class="ip-text">play.knightpixel.xyz</span>
+                        <span class="ip-subtext">Click to copy the IP address</span>
+                    </div>
+                    <i class="fas fa-link"></i>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="crown-container">
+                    <img src="cursed_crown_3d_png_1776780265920.png" alt="Cursed Crown" class="floating-crown">
+                    <div class="crown-glow"></div>
+                </div>
+                <div class="cursed-crown-card glass-card">
+                    <h3><i class="fas fa-crown"></i> THE CURSED CROWN</h3>
+                    <p>The crown grants unimaginable power to its king, but it also brings horrific curses.</p>
+                    <p class="highlight-text">EVERY POWER HAS A PRICE.</p>
+                    <div class="stats-grid">
+                        <div class="stat-group">
+                            <span class="stat-title">POWERS</span>
+                            <ul><li><i class="fas fa-bolt"></i> Strength</li><li><i class="fas fa-heart"></i> Regen</li></ul>
+                        </div>
+                        <div class="stat-group">
+                            <span class="stat-title">CURSES</span>
+                            <ul><li><i class="fas fa-clock"></i> Slowness</li><li><i class="fas fa-eye-slash"></i> Darkness</li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <section class="discord-section">
+            <div class="discord-card glass-card">
+                <div class="discord-info">
+                    <i class="fab fa-discord discord-large-icon"></i>
+                    <div class="discord-text">
+                        <h3>JOIN OUR DISCORD</h3>
+                        <p>Stay updated, chat with the community, and never miss out on events!</p>
+                        <a href="https://discord.gg/vMerUzQE" class="primary-btn discord-action-btn" target="_blank">JOIN DISCORD</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">CURSED <span>SMP</span></div>
+            <p>&copy; 2026 Knight Pixel | Cursed SMP</p>
+            <div class="social-links">
+                <a href="https://discord.gg/vMerUzQE" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://youtube.com/@knightpixelofficial?si=-IGzK2MpcbPE7dXa" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
